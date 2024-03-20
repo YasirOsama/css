@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 1.sataic position normal hoti hy ..2 in Relative position box move left,rihgt,top,bottom,from his original or his normal position and create gaap on his normal position.. 
+    3.absolute in which box or element move according to his parent..4.fixed in which box not change his position other page is change
+5 sticky position in which itam or box is stick on what distance or fixed position according to his parent -->
+    <style>
+        .container {
+            border: 2px solid red;
+            height: 3000px;
+           
+        }
+
+        .box1 {
+            height: 100px;
+            width: 100px;
+            border: 2px solid;
+            font-size: 25px;
+        }
+        .box2{height: 100px;
+            width: 100px;
+            border: 2px solid;
+            font-size: 25px;}
+            .box3{
+            width: 100px;
+            height: 100px;
+            border: 2px solid;
+            font-size: 25px;}
+            .box4{
+            width: 100px;
+            height: 100px;
+            border: 2px solid;
+            font-size: 25px;position: fixed;right: 5px;}
+            
+            .box5{height: 100px;
+            width: 100px;
+            border: 2px solid;
+            font-size: 25px;position: sticky; top: 25px;}
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1">static</div>
+        <div class="box2">relative</div>
+        <div class="box3">absolute</div>
+        <div class="box4">fixed</div>
+        <div class="box5">sticky</div>
+    </div>
+</body>
+
+</html>

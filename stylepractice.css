@@ -1,0 +1,7 @@
+.nav-bar{height: 100px;
+background-color: black;
+}
+.logo{
+    height: 200px;
+    background-image: url(amazon_logo.png);
+}
